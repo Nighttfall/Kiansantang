@@ -258,5 +258,11 @@ body {
   .NEXT:hover {
     background-color: #5e3b28; /* Warna saat hover */
   }
-
+  @media screen and (max-width: 768px) {
+    /* Gaya khusus untuk layar kecil (seperti HP) */
+    body {
+      font-size: 14px;
+    }
+  }
+  
 
