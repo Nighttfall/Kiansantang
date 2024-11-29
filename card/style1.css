@@ -159,6 +159,17 @@
   .text2 {
     font-size: 30px;
     width: 300px;
-    top:105px;
-    left:-40px;
+    top:50%;
+    left:20%;
   }
+
+  @media screen and (max-width: 768px) {
+    .NEXT {
+      font-size: 16px; /* Mengurangi ukuran font pada layar kecil */
+      padding: 8px 16px; /* Mengurangi padding pada layar kecil */
+      top: 90%; /* Memindahkan tombol ke bawah sedikit */
+      left: 50%;
+      transform: translateX(-50%); /* Menjaga tombol tetap di tengah */
+    }
+  }
+  
